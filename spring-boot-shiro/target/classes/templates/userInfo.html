@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>查询</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <!-- 引入 Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shiv 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+    <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<h1>查询结果</h1>
+<!-- 左对齐 -->
+<div class="media">
+    <ul>
+        <li th:each="Evis:${eviList}">
+            <div class="media-left">
+                <img th:src="${Evis.getPictures_url()}" class="media-object" style="width:60px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"></h4>
+                <p>ID:<span th:text="${Evis.getEvid()}"></span></p>
+                <p>行为:<span th:text="${Evis.getBehavior()}"></span></p>
+                <p>时间:<span th:text="${Evis.getRecordtime()}"></span></p>
+                <p>学号:<span th:text="${Evis.getStuid()}"></span></p>
+            </div>
+        </li>
+        <li><a href="/index">主页</a></li>
+    </ul>
+</div>
+
+<!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<!-- 包括所有已编译的插件 -->
+<script src="/statics/js/bootstrap.js"></script>
+</body>
+</html>

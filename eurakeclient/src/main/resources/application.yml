@@ -1,0 +1,37 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: select
+  datasource:
+    url: jdbc:mysql://139.199.22.224:3306/test?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: admin
+    password: admin123
+    #schema: database/import.sql
+    #sql-script-encoding: utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+    jpa:
+      database: mysql
+      show-sql: true
+      hibernate:
+        ddl-auto: update
+        naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.MySQL5Dialect
+      servlet:
+        multipart:
+          enabled: true
+          max-file-size: 50mb
+          max-request-size: 50mb
+    thymeleaf:
+      cache: false
+      mode: HTML
+
+
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    service-url:
+      defaultZone: http://peer2:8761/eureka/,http://peer1:8761/eureka/

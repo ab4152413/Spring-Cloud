@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4803b078-f4d6-4942-9598-fb198ec96d05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/src/main/java/com/springlcoud/EurakeclientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/src/main/java/com/springlcoud/controller/EvidenceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/src/main/java/com/springlcoud/dao/EvidenceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/src/main/java/com/springlcoud/model/Evidence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/src/main/java/com/springlcoud/results/ErrorResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/src/main/java/com/springlcoud/results/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/src/main/java/com/springlcoud/results/SuccessResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/src/main/java/com/springlcoud/service/EvidenceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/src/main/resources/templates/userInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeclient/src/test/java/com/springlcoud/EurakeclientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeserver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeserver/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeserver/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeserver/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeserver/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeserver/src/main/java/com/springcloud/eurakeserver/EurakeserverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurakeserver/src/test/java/com/springcloud/eurakeserver/EurakeserverApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/ShiroApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/config/MyShiroRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/dao/EvidenceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/dao/UserInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/model/Camera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/model/Evidence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/model/SysPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/model/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/model/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/results/ErrorResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/results/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/results/SuccessResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/sevice/EvidenceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/sevice/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/sevice/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/swagger/Swagger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/utils/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/utils/addEvidence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/web/EvidenceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/web/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/web/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/database/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/css/cm-overlay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/css/fontsize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/css/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/css/wickedpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/20140916023637413.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/333.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/60a280df4e06ba6ba40d8cfc9868e45b_1483247250701388.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/FormatFactory_setup.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/QQ图片20180706100831.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/QQ图片20180706162213.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/QQ图片20180706162557.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/a11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/a121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/a13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/aaa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/ab33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/b6adfd3c-6e1d-47ae-8740-016409cb1883.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/background1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/ban2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/ban4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/ban55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/ban6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/ban7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/cal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/cal1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/ccc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/close-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/closew.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/d8df5be43af83fae773350b1c98bf4dd_logo_long20150923.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/daf41176-f5cc-49aa-95a9-08a25a66f1f6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/dott.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/fengche.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/g13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/g2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/g3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/g4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/g5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/g6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/g7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/g8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/left-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/leftw.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/passport_2217668215_143471219218109_130_130.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/right-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/sp2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/sp5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/t1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/t11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/t2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/t22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/t3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/t33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/t333.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/t4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/t44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/t5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/t55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/t6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/tm1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/tm2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/tm3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/top1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/zhuanma_1.2.0.7.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/商标.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/商标final.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/大商标.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images/米津玄師 (よねづ けんし) - Lemon.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/js/SmoothScroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/js/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/js/jquery-2.1.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/js/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/js/jquery.backstretch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/js/jquery.cm-overlay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/js/jquery.mobile.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/js/jquery.tools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/js/move-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/js/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/js/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/js/wickedpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/sql.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/userInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/userInfoAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/userInfoDel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/ShiroApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/config/MyShiroRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/config/ShiroConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/dao/EvidenceRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/dao/UserInfoDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/model/Camera.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/model/Evidence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/model/SysPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/model/SysRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/model/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/results/ErrorResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/results/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/results/SuccessResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/sevice/EvidenceService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/sevice/EvidenceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/sevice/UserInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/sevice/impl/UserInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/swagger/Swagger2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/utils/MD5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/web/EvidenceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/web/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/web/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/com/neo/web/UserInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/database/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/css/cm-overlay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/css/fontsize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/css/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/css/wickedpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/20140916023637413.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/333.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/60a280df4e06ba6ba40d8cfc9868e45b_1483247250701388.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/FormatFactory_setup.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/QQ图片20180706100831.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/QQ图片20180706162213.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/QQ图片20180706162557.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/a11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/a121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/a13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/aaa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/ab33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/b6adfd3c-6e1d-47ae-8740-016409cb1883.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/background1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/ban2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/ban4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/ban55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/ban6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/ban7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/cal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/cal1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/ccc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/close-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/closew.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/d8df5be43af83fae773350b1c98bf4dd_logo_long20150923.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/daf41176-f5cc-49aa-95a9-08a25a66f1f6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/dott.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/fengche.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/g13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/g2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/g3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/g4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/g5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/g6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/g7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/g8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/left-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/leftw.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/passport_2217668215_143471219218109_130_130.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/right-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/sp2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/sp5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/t1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/t11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/t2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/t22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/t3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/t33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/t333.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/t4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/t44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/t5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/t55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/t6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/tm1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/tm2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/tm3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/top1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/zhuanma_1.2.0.7.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/商标.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/商标final.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/大商标.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/images/米津玄師 (よねづ けんし) - Lemon.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/js/SmoothScroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/js/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/js/jquery-2.1.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/js/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/js/jquery.backstretch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/js/jquery.cm-overlay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/js/jquery.mobile.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/js/jquery.tools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/js/move-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/js/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/js/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/static/statics/js/wickedpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/templates/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/templates/gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/templates/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/templates/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/templates/sql.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/templates/typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/templates/userInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/templates/userInfoAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/target/classes/templates/userInfoDel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ban2.jpg</find>
+      <find>.jpg</find>
+      <find>MediBulk</find>
+      <find>mysq</find>
+      <find>favicon.ico</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="1389" />
+    <option name="height" value="789" />
+  </component>
+  <component name="ProjectId" id="1VyCNDIraPRrA8T6udpmtBNRK7n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PycharmProjects/tensorflow-yolov3" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.springlcoud" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.springlcoud.model" />
+      <recent name="com.springlcoud.controller" />
+      <recent name="com.springlcoud.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/static/statics/images" />
+      <recent name="$PROJECT_DIR$/eurakeclient/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/eurakeclient/src/main/java/com/springlcoud" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShiroApplication">
+    <configuration name="eurakeserver-0.0.1-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/eurakeserver/target/eurakeserver-0.0.1-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="EurakeclientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eurakeclient" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springlcoud.EurakeclientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurakeserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eurakeserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.eurakeserver.EurakeserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-shiro" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.neo.ShiroApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.eurakeserver-0.0.1-SNAPSHOT.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4803b078-f4d6-4942-9598-fb198ec96d05" name="Default Changelist" comment="" />
+      <created>1559873357013</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559873357013</updated>
+      <workItem from="1559873360343" duration="1088000" />
+      <workItem from="1559874550332" duration="5825000" />
+      <workItem from="1559992961186" duration="15915000" />
+      <workItem from="1560048802495" duration="8740000" />
+      <workItem from="1560137461712" duration="1149000" />
+      <workItem from="1560142576570" duration="2992000" />
+      <workItem from="1560146124727" duration="1984000" />
+      <workItem from="1560280887731" duration="8873000" />
+      <workItem from="1560263271860" duration="2248000" />
+      <workItem from="1560266351693" duration="1358000" />
+      <workItem from="1560319590333" duration="6365000" />
+      <workItem from="1560413517105" duration="3124000" />
+      <workItem from="1560546038389" duration="736000" />
+      <workItem from="1560519145289" duration="2539000" />
+      <workItem from="1560522192766" duration="4029000" />
+      <workItem from="1560631868823" duration="1634000" />
+      <workItem from="1560700245782" duration="1002000" />
+      <workItem from="1561644682767" duration="2282000" />
+      <workItem from="1578215912319" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="638" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578215913353">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="638" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578215913353" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.53088236" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
